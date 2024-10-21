@@ -200,7 +200,7 @@ while True:
         consent = False
         while consent == False:
             clear_screen()
-            print(intro)
+            print(dashboard)
             print("\033[1;31mREGISTER-Please Provide the details")
             title = input("\033[1;32mSubject------------------------------> \033[1;31m")
             descr = input("\033[1;32mPlease Describe Your Issue In datails> \033[1;36m \n")
